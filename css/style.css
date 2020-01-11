@@ -571,6 +571,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   text-decoration: none;
 }
 
+/*Video1*/
 #preguntauno{display:none;}
 #preguntados{display:none;}
 #preguntatres{display:none;}
@@ -579,3 +580,18 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 #videoContainer2{display:none;}
 #videoContainer3{display:none;}
 #videoContainer4{display:none;}
+
+
+/*Video2*/
+#preguntaduno{display:none;}
+#preguntaddos{display:none;}
+#preguntadtres{display:none;}
+
+
+#videoContainerd2{display:none;}
+#videoContainerd3{display:none;}
+#videoContainerd4{display:none;}
+/*Video3*/
+/*Video4*/
+/*Video5*/
+/*Video6*/
