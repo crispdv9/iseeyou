@@ -51,13 +51,12 @@ transition-duration: 0.4s;
 #rectangle2{
   border: 0.1px solid white ;
   padding:10px;
-  background-color: black;
   /*margin-top: 5px;*/
 }
 .rectangle2{
   border: 0.1px solid black ;
-  padding-top: 5px;
   padding:5px;
+
   -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 background-color: black;
@@ -65,7 +64,7 @@ background-color: black;
   /*margin-top: 5px; */
 }
 .rectangle2:hover{
-  border: 0.1px solid red ;
+  border: 1px solid red ;
   color: red;
 }
 
@@ -103,12 +102,22 @@ background-color: black;
   padding-bottom: 20%
 }
 .mainpage p {
+  margin-top: 0px;
 
 margin-bottom: 0px;
 
 }
 
+.mainpage h4 {
+  font-family: 'Rubik', sans-serif;
+  font-size: 10px;
+margin-bottom: 0px;
+margin-top: 0px;
 
+color: white;
+
+
+}
 .col-sm-8 {
  justify-content: flex-end;
  margin-left: 20%;
@@ -240,16 +249,6 @@ width: 100%;
   font-size: 20px;
   font-weight: 400;
 }
-.guide h1{
-  font-size: 40px;
-  font-weight: 500;
-  color:white;
-}
-.guide h2{
-  color: red;
-  font-size: 25px;
-  font-weight: 500;
-}
 
 .about {
   background-color: #e54739;
@@ -277,6 +276,21 @@ margin-top: 2%;
   font-weight: 600;
   margin-bottom: 1%;
   text-align: center;
+}
+
+.guide h1{
+  font-size: 70px;
+  font-weight: 500;
+  color: #2a3d90;
+  margin-top:0;
+  text-shadow: 2px 2px #FFFFFF;
+}
+.guide h2{
+  color: #2a3d90;
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: 0%;
+  text-align: left;
 }
 .about h4{
   padding-top: 10%;
