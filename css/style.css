@@ -51,13 +51,17 @@ transition-duration: 0.4s;
 #rectangle2{
   border: 0.1px solid white ;
   padding:10px;
+  background-color: black;
   /*margin-top: 5px;*/
 }
 .rectangle2{
-  border: 0.1px solid white ;
+  border: 0.1px solid black ;
+  padding-top: 5px;
   padding:5px;
   -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
+background-color: black;
+
   /*margin-top: 5px; */
 }
 .rectangle2:hover{
@@ -100,7 +104,6 @@ transition-duration: 0.4s;
 }
 .mainpage p {
 
-margin-top: 5px;
 margin-bottom: 0px;
 
 }
