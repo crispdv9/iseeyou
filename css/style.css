@@ -2,7 +2,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
-  background-color: #000000;
+  background-color: #e54739;
 
 }
 
@@ -37,7 +37,7 @@ p a{
   }
 
   .rectangle {
-    background-color: #000000;
+    background-color: #2a3d90;
     color: red;
     border: 2px solid red;
     -webkit-transition-duration: 0.4s; /* Safari */
@@ -73,7 +73,7 @@ transition-duration: 0.4s;
 }
 .mainpage {
   overflow:hidden;
-  background-color: #000000;
+  background-color: #2a3d90;
 
 }
 .mainpage a{
@@ -118,10 +118,16 @@ margin-bottom: 0px;
 header .row {
   display: flex;
   align-items: left;
-  background-color: #000000;
+  background-color: #2a3d90;
 
 }
 
+header .row2 {
+  display: flex;
+  align-items: left;
+  background-color: #e54739;
+
+}
 header h1 {
   font-weight: 200;
   font-size: 18px;
@@ -132,7 +138,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-  background-color: #000000;
+  background-color: #2a3d90;
   margin-top: 30px;
 
 }
@@ -142,7 +148,7 @@ header p {
   text-size: 1.5em;
   text-decoration: underline;
   color: black;
-  background-color: #000000;
+  background-color: #2a3d90;
 
 
 }
@@ -157,16 +163,24 @@ div {
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #000000;
+    background-color: #2a3d90;
     overflow:hidden;
 
   }
+  .introabout {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: #e54739;
+      overflow:hidden;
 
-.intro2{
+    }
+
+.introguide{
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: #000000;
+  background-color: #e54739;
   overflow:hidden;
 }
 
@@ -189,7 +203,7 @@ div {
 }
 
 section .row{
-  background-color: #000000;
+  background-color: #e54739;
   margin-top: 5%;
   padding-bottom: 20px;
   padding-right: 0;
@@ -213,7 +227,7 @@ video {
 
 
 .guide {
-background-color: #000000;
+background-color: #e54739;
 height: 100%;
 width: 100%;
 }
@@ -235,7 +249,7 @@ width: 100%;
 }
 
 .about {
-  background-color: #000000;
+  background-color: #e54739;
   align-items: center;
 
 }
@@ -288,14 +302,14 @@ width: 100%;
 overflow: hidden;
   padding-top: 20%;
   padding-bottom: 25%;
-  background-color:#000000 ;
+  background-color:#2a3d90 ;
   }
 
 
 .fondo2 {
   padding-top: 20%;
   padding-bottom: 25%;
-  background-color:#000000 ;
+  background-color:#2a3d90 ;
     }
 .fondo2 p{
     color: white;
@@ -327,7 +341,7 @@ font-family: 'Rubik', sans-serif;
 overflow: hidden;
   padding-top: 30%;
   padding-bottom: 25%;
-  background-color:#000000 ;
+  background-color:#2a3d90 ;
 
 
   }
@@ -348,9 +362,9 @@ overflow: hidden;
   }
 
 
-.container-fluid {
-  background: #000000;
-}
+/*.container-fluid {
+  background: #2a3d90;
+}*/
 
 .row-full {
 width: 100vw;
@@ -364,7 +378,7 @@ left: 50%;
 
 /*footer*/
 .footer {
-  background-color: #000000;
+  background-color: #e54739;
   padding-top: 10%;
   padding-bottom: 5%;
   color: white;
