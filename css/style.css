@@ -246,7 +246,7 @@ width: 100%;
 
 .guide p{
   margin-top: 10%;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: 400;
 }
 
@@ -609,6 +609,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .fat-nav li a {
   text-decoration: none;
 }
+
+
 
 /*Video1*/
 #preguntauno{display:none;}
