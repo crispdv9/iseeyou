@@ -21,6 +21,7 @@ p{
 .about p a{
   color: #2a3d90;
   font-weight: 500px;
+  font-family: 'Rubik', sans-serif;
 
 }
 
@@ -77,13 +78,7 @@ background-color: black;
   background-color: #2a3d90;
 
 }
-.mainpage a{
-    color: red;
-    font-family: 'Rubik', sans-serif;
-    font-weight: 300;
 
-
-}
 .mainpage h1 {
   margin-top:30%;
   color: red;
@@ -103,9 +98,10 @@ background-color: black;
 }
 .mainpage p {
   margin-top: 0px;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
-  font-weight: 100;
+  font-weight: 500;
+  font-size: 20px;
 
 }
 .mainpage h3:hover {
@@ -215,23 +211,30 @@ div {
   margin-top: 0;
 }
 .introduction h2{
-  margin-top: 5%;
+  margin-top: 1%;
 
 }
-
+.introduction p{
+  padding-top: 5;
+  margin-top: 0;
+  font-family: 'Rubik', sans-serif;
+  font-weight: 50;
+  font-size: 15;
+}
 .video {
   align:right;
   margin-top: 10%;
   margin-bottom: 10%
 }
 
+
 section .row{
-  background-color: #e54739;
-  margin-top: 5%;
+  margin-top: 2%;
   padding-bottom: 20px;
   padding-right: 0;
 
 }
+
 
 .col-md-3 {
   padding-bottom: 1%;
@@ -258,7 +261,9 @@ width: 100%;
 .guide p{
   margin-top: 10%;
   font-size: 18px;
-  font-weight: 400;
+  font-weight: 200;
+  font-family: 'Rubik', sans-serif;
+
 }
 
 .about {
@@ -277,6 +282,7 @@ text-decoration: line-through;
 margin-top: 2%;
   font-size: 18px;
   font-weight: 300;
+  font-family: 'Rubik', sans-serif;
 
 }
 
@@ -284,7 +290,7 @@ margin-top: 2%;
   font-size: 70px;
   font-weight: 500;
   color: #2a3d90;
-  margin-top:0;
+  margin-top:5;
   margin-bottom: 23%;
   text-shadow: 2px 2px #FFFFFF;
 }
@@ -300,7 +306,7 @@ margin-top: 2%;
   font-size: 70px;
   font-weight: 500;
   color: #2a3d90;
-  margin-top:0;
+  margin-top:5;
   text-shadow: 2px 2px #FFFFFF;
 }
 .guide h2{
