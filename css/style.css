@@ -20,7 +20,7 @@ p{
 }
 .about p a{
   color: #2a3d90;
-  font-weight: 500px;
+  font-weight: 300px;
   font-family: 'Rubik', sans-serif;
 
 }
@@ -92,7 +92,7 @@ background-color: black;
 .mainpage h2 {
   color: red;
   font-family: 'Rubik', sans-serif;
-  font-weight: 200;
+  font-weight: 900;
   font-size: 20px;
   padding-bottom: 20%
 }
@@ -100,8 +100,8 @@ background-color: black;
   margin-top: 0px;
   margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
-  font-weight: 500;
-  font-size: 20px;
+  font-weight: 300;
+  font-size: 18px;
 
 }
 .mainpage h3:hover {
@@ -215,11 +215,12 @@ div {
 
 }
 .introduction p{
+  font-size: 8px;
   padding-top: 5;
+  margin-bottom: 2%;
   margin-top: 0;
   font-family: 'Rubik', sans-serif;
-  font-weight: 50;
-  font-size: 15;
+  font-weight: 900;
 }
 .video {
   align:right;
@@ -229,7 +230,7 @@ div {
 
 
 section .row{
-  margin-top: 2%;
+  margin-top: 4%;
   padding-bottom: 20px;
   padding-right: 0;
 
@@ -281,7 +282,7 @@ text-decoration: line-through;
 .about  p{
 margin-top: 2%;
   font-size: 18px;
-  font-weight: 300;
+  font-weight: 100;
   font-family: 'Rubik', sans-serif;
 
 }
@@ -291,14 +292,14 @@ margin-top: 2%;
   font-weight: 500;
   color: #2a3d90;
   margin-top:5;
-  margin-bottom: 23%;
+  margin-bottom: 20%;
   text-shadow: 2px 2px #FFFFFF;
 }
 .about h2{
   color: #2a3d90;
   font-size: 25px;
   font-weight: 600;
-  margin-bottom: 1%;
+  margin-bottom: 5%;
   text-align: center;
 }
 
@@ -308,6 +309,8 @@ margin-top: 2%;
   color: #2a3d90;
   margin-top:5;
   text-shadow: 2px 2px #FFFFFF;
+  margin-bottom: 20%;
+
 }
 .guide h2{
   color: #2a3d90;
