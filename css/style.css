@@ -22,7 +22,7 @@ p{
 
 }
 p a{
-  color: red;
+  color: #e54739;
 
 }
 
@@ -254,8 +254,7 @@ width: 100%;
 
 }
 .about  p{
-  padding-top: 5%;
-
+margin-top: 2%;
   font-size: 18px;
   font-weight: 300;
 
@@ -265,11 +264,14 @@ width: 100%;
   font-size: 40px;
   font-weight: 500;
   color:white;
+  margin-top:0;
 }
 .about h2{
-  color: red;
+  color: #2a3d90;
   font-size: 25px;
-  font-weight: 300;
+  font-weight: 600;
+  margin-bottom: 1%;
+  text-align: center;
 }
 .about h4{
   padding-top: 10%;
@@ -277,6 +279,10 @@ width: 100%;
   font-size: 20px;
   font-weight: 500;
 
+}
+
+.partes{
+  padding-bottom: 10%;
 }
 .pictures{
   padding-top: 10%;
