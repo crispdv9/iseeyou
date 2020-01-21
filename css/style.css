@@ -3,15 +3,16 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   background-color: #e54739;
-  cursor: url(https://freight.cargo.site/t/original/i/0559de5…/arrow-26.png), auto !important;
+  cursor: url("/images/seta2red.png"), auto !important;
 
 }
 .customCursor {
   cursor: url("/images/seta2red.png"),
-  width: 20%;
-  height: 20%;
-}
 
+}
+div {
+   cursor: url("/images/seta2red.png"), auto;
+}
 header {
 padding:0;
 
@@ -36,25 +37,25 @@ p{
 
 
 #rectangle {
-  border: 1px solid red ;
-  width: 60%;
-  align-items: center;
+  margin-top: 40%;
+  border: 3px solid white ;
+  padding: 5px ;
+  margin-left: 20%;
   justify-content: center;
-  flex:none;
-  width: 100%;
+  width: 60%;
   }
 
   .rectangle {
-    background-color: #2a3d90;
-    color: red;
-    border: 2px solid red;
+    background-color: white;
+    color: white;
+    border: 3px solid red;
     -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
   }
 
   .rectangle:hover{
-    background-color: #f44336;
-    color: #2a3d90;
+    background-color: #2a3d90;
+    color: white;
   }
 #rectangle2{
   border: 0.1px solid white ;
@@ -301,6 +302,8 @@ color: white;
 .fondo1 a{
   align-items: center;
 color: white;
+text-decoration: underline;
+
 }
 
 .about {
@@ -429,7 +432,7 @@ background-color:#2a3d90 ;
     }
 .fondo p{
   color: white;
-font-size: 20px;
+font-size: 18px;
 font-family: 'Rubik', sans-serif;
 font-weight: 300;
 text-align: center;
@@ -438,8 +441,8 @@ text-align: center;
 }
 
 .fondo h3{
-color: red;
-font-size: 25px;
+color: #2a3d90;
+font-size: 20px;
 text-align: center;
 font-family: 'Rubik', sans-serif;
 
@@ -462,8 +465,8 @@ overflow: hidden;
   }
 
   .fondo3 h3{
-  color: red;
-  font-size: 30px;
+  color: #2a3d90;
+  font-size: 20px;
   text-align: center;
   font-family: 'Rubik', sans-serif;
 
