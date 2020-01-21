@@ -640,21 +640,21 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   -moz-transform: scale(1.4);
   -ms-transform: scale(1.4);
   -webkit-transform: scale(1.4);
-  transform: scale(1.4);
+  transform: scale(0);
   -moz-transition-property: -moz-transform;
   -o-transition-property: -o-transform;
   -webkit-transition-property: -webkit-transform;
   transition-property: transform;
-  -moz-transition-duration: 0.4s;
-  -o-transition-duration: 0.4s;
-  -webkit-transition-duration: 0.4s;
-  transition-duration: 0.4s;
+  -moz-transition-duration: 0.0s;
+  -o-transition-duration: 0.0s;
+  -webkit-transition-duration: 0.0s;
+  transition-duration: 0.0s;
   overflow-y: auto;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
 }
 .fat-nav__wrapper {
-  width: 40%;
+  width: 80%;
   height: 60%;
   display: table;
   table-layout: fixed;
@@ -668,7 +668,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .fat-nav ul {
   display: table-cell;
   vertical-align: left;
-  margin-top: 10%;
+  margin: 40;
   padding: 10;
   font-family: 'Rubik', sans-serif;
 
