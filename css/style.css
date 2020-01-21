@@ -419,24 +419,33 @@ background-color:#2a3d90 ;
   padding-top: 20%;
   padding-bottom: 25%;
   background-color:#2a3d90 ;
+  align-items: center;
     }
+
 .fondo2 p{
     color: white;
-    font-size: 25px;
-    text-align: left;
+    font-size: 20px;
     font-family: 'Rubik', sans-serif;
     line-height: 1;
-    padding-left: 10%;
     font-weight: normal;
-
+    padding-top: 20%;
+    margin-left: 10%;
+padding-bottom: 5%;
 
     }
+.fondo2 img{
+  align-items: center;
+  align-content: center;
+  margin-left: 10%;
+}
+
 .fondo p{
   color: white;
 font-size: 28px;
 font-family: 'Rubik', sans-serif;
 font-weight: 100;
 text-align: center;
+
 
 
 }
