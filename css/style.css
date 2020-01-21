@@ -265,6 +265,17 @@ width: 100%;
   font-weight: 200;
   font-family: 'Rubik', sans-serif;
 
+
+}
+.guide a:hover{
+  background-color: #e54739;
+  align-items: center;
+text-decoration: line-through;
+color: #2a3d90;
+}
+.guide a{
+  align-items: center;
+color: #2a3d90;
 }
 
 .about {
@@ -272,11 +283,15 @@ width: 100%;
   align-items: center;
 
 }
-
+.about a{
+  align-items: center;
+color: #2a3d90;
+}
 .about a:hover{
   background-color: #e54739;
   align-items: center;
 text-decoration: line-through;
+color: #2a3d90;
 }
 
 .about  p{
