@@ -102,7 +102,7 @@ background-color: black;
 .mainpage h2 {
   color: #e54739;
   font-family: 'Rubik', sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 23px;
   padding-bottom: 5%;
   padding-top: 5%;
@@ -236,7 +236,7 @@ div {
   margin-bottom: 2%;
   margin-top: 0;
   font-family: 'Rubik', sans-serif;
-  font-weight: 900;
+  font-weight: 600;
 }
 .video {
   align:right;
@@ -431,6 +431,8 @@ background-color:#2a3d90 ;
     padding-top: 20%;
     margin-left: 10%;
     text-align: center;
+    font-weight: 100;
+
 
     }
 .fondo2 img{
@@ -439,6 +441,7 @@ background-color:#2a3d90 ;
 }
 .fondo2 h3{
   align-items: center;
+  font-weight: 400;
 }
 
 .fondo p{
@@ -706,7 +709,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   margin: 40;
   padding: 10;
   font-family: 'Rubik', sans-serif;
-
+  font-weight: 400;
 
 }
 .fat-nav li {
