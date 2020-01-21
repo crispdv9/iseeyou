@@ -422,17 +422,17 @@ background-color:#2a3d90 ;
     }
 .fondo2 p{
     color: white;
-    font-size: 18px;
+    font-size: 30px;
     text-align: left;
     font-family: 'Rubik', sans-serif;
-    line-height: 2;
-    font-style: italic;
+    line-height: 1;
+    padding-left: 10%;
 
 
     }
 .fondo p{
   color: white;
-font-size: 18px;
+font-size: 28px;
 font-family: 'Rubik', sans-serif;
 font-weight: 300;
 text-align: center;
@@ -458,7 +458,7 @@ overflow: hidden;
   }
   .fondo3 p{
     color: white;
-  font-size: 18px;
+  font-size: 28px;
   text-align: center;
   font-family: 'Rubik', sans-serif;
 
@@ -524,7 +524,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
-	bottom: -50px;
+	bottom: -180px;
 	color: #e54739;
 	text-align: center;
 	font-size: 70px;
