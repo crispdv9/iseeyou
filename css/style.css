@@ -3,14 +3,20 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   background-color: #e54739;
-
+cursor: url('/images/seta2red.png'), auto;
+}
+.custom {
+  cursor: url(/images/seta2red.png);
 }
 
 header {
 padding:0;
 
 }
-
+#introtarget p{
+  color:red;
+  align-items: center;
+}
 
 p{
   color: white;
@@ -278,6 +284,16 @@ color: #2a3d90;
 color: #2a3d90;
 }
 
+.fondo1 a:hover{
+  align-items: center;
+text-decoration: line-through;
+color: white;
+}
+.fondo1 a{
+  align-items: center;
+color: white;
+}
+
 .about {
   background-color: #e54739;
   align-items: center;
@@ -371,7 +387,20 @@ overflow: hidden;
   padding-bottom: 25%;
   background-color:#2a3d90 ;
   }
+  .fondo1 {
+  overflow: hidden;
 
+background-color:#2a3d90 ;
+    }
+
+.fondo1 p{
+        color: white;
+        font-size: 18px;
+        text-align: left;
+        font-family: 'Rubik', sans-serif;
+        line-height: 2;
+
+        }
 
 .fondo2 {
   padding-top: 20%;
