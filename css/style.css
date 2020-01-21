@@ -422,7 +422,7 @@ background-color:#2a3d90 ;
     }
 .fondo2 p{
     color: white;
-    font-size: 30px;
+    font-size: 25px;
     text-align: left;
     font-family: 'Rubik', sans-serif;
     line-height: 1;
@@ -474,6 +474,9 @@ overflow: hidden;
 
   }
 
+.icon1{
+  padding-top: 10%;
+}
 /*.container-fluid {
   background: #2a3d90;
 }*/
