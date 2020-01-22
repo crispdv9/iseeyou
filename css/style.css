@@ -565,13 +565,13 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .ca3-scroll-down-arrow {
-	background-image: url("images/seta2red.png");
+	background-image: url("../images/seta2red.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .ca3-scroll-down-arrow2 {
-	background-image: url("images/seta2.png");
+	background-image: url("../images/seta2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
