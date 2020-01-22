@@ -38,6 +38,7 @@ p{
   margin-left: 20%;
   justify-content: center;
   width: 60%;
+
   }
 
   .rectangle {
@@ -46,11 +47,14 @@ p{
     border: 3px solid red;
     -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
+cursor:pointer;
   }
 
   .rectangle:hover{
     background-color: #2a3d90;
     color: white;
+
+
 
   }
 #rectangle2{
@@ -65,6 +69,8 @@ transition-duration: 0.4s;
   -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 background-color: black;
+cursor:pointer;
+
 
   /*margin-top: 5px; */
 }
@@ -127,6 +133,8 @@ text-decoration: line-through;
 text-align: left;
 color: white;
 text-decoration: underline;
+cursor:pointer;
+
 
 
 }
