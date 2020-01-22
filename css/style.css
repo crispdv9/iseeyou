@@ -51,6 +51,7 @@ transition-duration: 0.4s;
   .rectangle:hover{
     background-color: #2a3d90;
     color: white;
+
   }
 #rectangle2{
   border: 0.1px solid white ;
