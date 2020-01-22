@@ -133,10 +133,12 @@ text-decoration: underline;
 
 .mainpage h4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 10px;
+  font-size: 12px;
 margin-bottom: 0px;
 margin-top: 0px;
 color: white;
+font-weight: 100;
+
 
 }
 .col-sm-8 {
