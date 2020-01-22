@@ -10,6 +10,8 @@ body {
   cursor: url("/images/seta2red.png"),
 
 }
+
+
 div {
    cursor: url("/images/seta2red.png"), auto;
 }
@@ -558,7 +560,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 .ca3-scroll-down-link {
   cursor:pointer;
-	height: 60px;
+	height: 0px;
 	width: 80px;
 	margin: 0px 0 0 -40px;
 	line-height: 60px;
