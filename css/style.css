@@ -3,17 +3,17 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   background-color: #e54739;
-  cursor: url("/images/seta2red.png"), auto !important;
+  cursor: url("../images/seta2red.png"), auto !important;
 
 }
 .customCursor {
-  cursor: url("/images/seta2red.png"),
+  cursor: url("../images/seta2red.png"),
 
 }
 
 
 div {
-   cursor: url("/images/seta2red.png"), auto;
+   cursor: url("../images/seta2red.png"), auto;
 }
 header {
 padding:0;
@@ -573,13 +573,13 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .ca3-scroll-down-arrow {
-	background-image: url("/images/seta2red.png");
+	background-image: url("../images/seta2red.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
 
 .ca3-scroll-down-arrow2 {
-	background-image: url("/images/seta2.png");
+	background-image: url("../images/seta2.png");
 	background-size: contain;
 	background-repeat: no-repeat;
 }
