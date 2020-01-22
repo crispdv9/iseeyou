@@ -83,15 +83,3 @@ $.fatNav();
 
 
 });
-$(document).ready(function() {
-  $("firsttext").hide();
-
-$("#firsticon").click(function(){
-  $("firsttext").show();
-
-});
-$("#firsticon").click(function(){
-  $("firsttext").hide();
-
-});
-});

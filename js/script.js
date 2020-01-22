@@ -1,6 +1,16 @@
 
 
 $(document).ready(function() {
+  $("firsttext").hide();
+
+  $("#firsticon").click(function(){
+    $("firsttext").show();
+
+  });
+  $("#firsticon").click(function(){
+    $("firsttext").hide();
+
+  });
 
   var video1 = document.getElementById("video1");
   var video2 = document.getElementById("video2");
@@ -75,6 +85,9 @@ $(document).ready(function() {
 //video5
 
 //video6
+
+
+
 
 
 });
