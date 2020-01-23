@@ -438,6 +438,10 @@ margin-top: 2%;
 .partes{
   padding-bottom: 0;
 }
+.partes p{
+  margin-top: 0;
+  padding-bottom: 5%;
+}
 
 .partes2{
   padding-bottom: 0;
@@ -848,6 +852,16 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 .hit-the-floor {
   text-align: left;
+}
+
+#videointroductorio{
+
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  min-width: 100%;
+  min-height: 100%;
+
 }
 /*ok*/
 .preloader {
