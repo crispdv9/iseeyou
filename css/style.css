@@ -3,7 +3,6 @@ body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
   background-color: #e54739;
-
 }
 
 
@@ -65,6 +64,7 @@ cursor:pointer;
 .rectangle2{
   border: 0.1px solid black ;
   padding:5px;
+
 
   -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
@@ -218,6 +218,7 @@ div {
     position: absolute;
     background-color: #2a3d90;
     overflow:hidden;
+    background-image: url('/images/eye.png');
 
   }
   .introabout {
