@@ -850,7 +850,18 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   text-align: left;
 }
 /*ok*/
-
+.preloader {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 100%;
+   height: 100%;
+   z-index: 9999;
+   background-image: url('../images/mouse.png');
+   background-repeat: no-repeat;
+   background-color: #2a3d90;
+   background-position: center;
+}
 /*Video1*/
 #preguntauno{display:none;}
 #preguntados{display:none;}

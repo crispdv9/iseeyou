@@ -2,6 +2,8 @@
 
 $(document).ready(function() {
 
+
+
   var video1 = document.getElementById("video1");
   var video2 = document.getElementById("video2");
   var video3 = document.getElementById("video3");
