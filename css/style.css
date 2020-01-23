@@ -218,7 +218,7 @@ div {
     position: absolute;
     background-color: #2a3d90;
     overflow:hidden;
-    background-image: url('/images/eye.png');
+    /*background-image: url('/images/blue.jpg');*/
 
   }
   .introabout {
