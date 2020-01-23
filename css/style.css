@@ -795,8 +795,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .fat-nav ul {
   display: table-cell;
   vertical-align: left;
-  margin: 40;
-  padding: 10;
+  margin: 60;
+  padding: 20;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
 
@@ -804,9 +804,9 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .fat-nav li {
   list-style-type: none;
   text-align: left;
-  padding-left: 10px;
+  padding-left: 5%;
   font-size: 5em;
-  padding-top: 20;
+  padding-top: 5%;
   margin-top: 20;
   font-family: 'Rubik', sans-serif;
 
