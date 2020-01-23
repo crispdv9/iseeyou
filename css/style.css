@@ -825,14 +825,11 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 
 .glitch {
-	position: relative;
-	color: white;
-	font-size: 4em;
-	letter-spacing: .5em;
 	/* Animation provies a slight random skew. Check bottom of doc
 	for more information on how to random skew. */
 	animation: glitch-skew 1s infinite linear alternate-reverse;
 
+	// Creates a copy before our text.
 	&::before{
 		// Duplicates our text with the mixin.
 		@include glitchCopy;
@@ -849,6 +846,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 		animation: glitch-anim 5s infinite linear alternate-reverse;
 	}
 
+	// Creates a copy after our text. Note comments from ::before.
 	&::after {
 		@include glitchCopy;
 		left: -2px;
@@ -871,6 +869,7 @@ skew to change the 'thickness' of the glitch.*/
   }
 }
 
+// Same deal, just duplicated for ultra randomness.
 @keyframes glitch-anim2 {
   $steps: 20;
   @for $i from 0 through $steps {
@@ -881,6 +880,7 @@ skew to change the 'thickness' of the glitch.*/
   }
 }
 
+// Does the same deal as before, but now only skews. Used for main text.
 @keyframes glitch-skew {
   $steps: 10;
   @for $i from 0 through $steps {
@@ -889,7 +889,6 @@ skew to change the 'thickness' of the glitch.*/
     }
   }
 }
-
 /*Video1*/
 #preguntauno{display:none;}
 #preguntados{display:none;}
