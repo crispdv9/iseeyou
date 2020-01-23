@@ -12,7 +12,7 @@ padding:0;
 
 }
 #introtarget p{
-  color:red;
+  color:#e54739;
   align-items: center;
 }
 
@@ -44,7 +44,7 @@ p{
   .rectangle {
     background-color: white;
     color: white;
-    border: 3px solid red;
+    border: 3px solid #e54739;
     -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 cursor:pointer;
@@ -75,8 +75,8 @@ cursor:pointer;
   /*margin-top: 5px; */
 }
 .rectangle2:hover{
-  border: 1px solid red ;
-  color: red;
+  border: 1px solid #e54739 ;
+  color: #e54739;
 }
 
 #rectangle3{
@@ -94,12 +94,14 @@ cursor:pointer;
 }
 
 .mainpage h1 {
-  margin-top:30%;
+  margin-top:20%;
   color: #e54739;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
   font-size: 70px;
   text-shadow: 2px 2px #FFFFFF;
+  margin-bottom:10%;
+
 
 }
 
@@ -110,6 +112,7 @@ cursor:pointer;
   font-size: 20px;
   padding-bottom: 5%;
   padding-top: 5%;
+  text-shadow: 0px 1px 0px rgba(0,0,0,.5);
 
 
 }
@@ -136,8 +139,8 @@ text-align: left;
 color: white;
 text-decoration: underline;
 cursor:pointer;
-
-
+font-weight: 100;
+padding-top:12%;
 
 }
 
@@ -416,7 +419,7 @@ margin-top: 2%;
 }
 .u {
   text-decoration: underline;
-  color: red;
+  color: #e54739;
 }
 .adviceguide{
   padding-top: 10%;
@@ -787,7 +790,105 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   font-family: 'Rubik', sans-serif;
 
 }
+/*Wave text*/
+.hit-the-floor {
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  font-family: 'Rubik';
+  text-shadow:
+    0 1px 0 #ccc,
+    0 1px 0 #c9c9c9,
+    0 1px 0 #bbb,
+    0 1px 0 #b9b9b9,
+    0 1px 0 #aaa,
+    0 1px 1px rgba(0,0,0,.1),
+    0 0 1px rgba(0,0,0,.1),
+    0 1px 3px rgba(0,0,0,.3),
+    0 1px 5px rgba(0,0,0,.2),
+    0 1px 10px rgba(0,0,0,.25),
+    0 1px 10px rgba(0,0,0,.2),
+    0 1px 20px rgba(0,0,0,.15);
+}
 
+.hit-the-floor {
+  text-align: left;
+}
+/*ok*/
+@mixin glitchCopy {
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+}
+
+.glitch {
+	position: relative;
+	color: white;
+	font-size: 4em;
+	letter-spacing: .5em;
+	/* Animation provies a slight random skew. Check bottom of doc
+	for more information on how to random skew. */
+	animation: glitch-skew 1s infinite linear alternate-reverse;
+
+	&::before{
+		// Duplicates our text with the mixin.
+		@include glitchCopy;
+		// Scoots text slightly to the left for the color offset.
+		left: 2px;
+		// Creates the color 'shadow' that happens on the glitch.
+		text-shadow: -2px 0 #ff00c1;
+		/* Creates an initial clip for our glitch. This works in
+		a typical top,right,bottom,left fashion and creates a mask
+		to only show a certain part of the glitch at a time. */
+		clip: rect(44px, 450px, 56px, 0);
+		/* Runs our glitch-anim defined below to run in a 5s loop, infinitely,
+		with an alternating animation to keep things fresh. */
+		animation: glitch-anim 5s infinite linear alternate-reverse;
+	}
+
+	&::after {
+		@include glitchCopy;
+		left: -2px;
+		text-shadow: -2px 0 #00fff9, 2px 2px #ff00c1;
+		animation: glitch-anim2 1s infinite linear alternate-reverse;
+	}
+}
+
+/* Creates an animation with 20 steaps. For each step, it calculates
+a percentage for the specific step. It then generates a random clip
+box to be used for the random glitch effect. Also adds a very subtle
+skew to change the 'thickness' of the glitch.*/
+@keyframes glitch-anim {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+			transform: skew((random(100) / 100) + deg);
+    }
+  }
+}
+
+@keyframes glitch-anim2 {
+  $steps: 20;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      clip: rect(random(100)+px, 9999px, random(100)+px, 0);
+			transform: skew((random(100) / 100) + deg);
+    }
+  }
+}
+
+@keyframes glitch-skew {
+  $steps: 10;
+  @for $i from 0 through $steps {
+    #{percentage($i*(1/$steps))} {
+      transform: skew((random(10) - 5) + deg);
+    }
+  }
+}
 
 /*Video1*/
 #preguntauno{display:none;}
