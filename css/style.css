@@ -120,7 +120,7 @@ cursor:pointer;
   color: #e54739;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
-  font-size: 70px;
+  font-size: 5em;
   text-shadow: 2px 2px #FFFFFF;
   margin-bottom:10%;
 
@@ -132,7 +132,7 @@ cursor:pointer;
   color: #e54739;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  font-size: 20px;
+  font-size: 1.3em;
   padding-bottom: 5%;
   padding-top: 5%;
   text-shadow: 0px 1px 0px rgba(0,0,0,.5);
@@ -144,7 +144,7 @@ cursor:pointer;
   margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
-  font-size: 18px;
+  font-size: 1.3em;
 
 }
 .mainpage h3:hover {
@@ -157,7 +157,7 @@ text-decoration: line-through;
 }
 .mainpage h3 {
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
+  font-size: 1.05em;
 text-align: left;
 color: white;
 text-decoration: underline;
@@ -170,7 +170,7 @@ padding-top:8%;
 
 .mainpage h4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 12px;
+  font-size: 0.9em;
 margin-bottom: 0px;
 margin-top: 0px;
 color: white;
@@ -271,7 +271,7 @@ div {
 
 }
 .introduction p{
-  font-size: 8px;
+  font-size: 1em;
   padding-top: 5;
   margin-bottom: 2%;
   margin-top: 0;
@@ -298,12 +298,7 @@ section .row{
 padding-right: 10%;
 }
 
-.col-md-3 p{
-  font-size: 13px;
-  padding-top: 2%;
-  font-family: 'Rubik', sans-serif;
 
-}
 
 video {
     width: 100%;
@@ -319,7 +314,7 @@ width: 100%;
 
 .guide p{
   margin-top: 10%;
-  font-size: 18px;
+  font-size: 1.25em;
   font-weight: 200;
   font-family: 'Rubik', sans-serif;
 
@@ -371,14 +366,14 @@ color: #2a3d90;
 
 .about  p{
 margin-top: 2%;
-  font-size: 17px;
+font-size: 1.20em;
   font-weight: 100;
   font-family: 'Rubik', sans-serif;
 
 }
 
 .about h1{
-  font-size: 70px;
+  font-size: 5em;
   font-weight: 600;
   color: #2a3d90;
   margin-bottom: 10%;
@@ -388,7 +383,7 @@ margin-top: 2%;
 }
 
 .about h1:hover{
-  font-size: 70px;
+  font-size: 5em;
   font-weight: 500;
   color: #FFFFFF;
   margin-bottom: 10%;
@@ -398,7 +393,7 @@ margin-top: 2%;
 }
 .about h2{
   color: #2a3d90;
-  font-size: 25px;
+  font-size: 1.6em;
   font-weight: 600;
   margin-bottom: 5%;
   text-align: left;
@@ -407,7 +402,7 @@ margin-top: 2%;
 }
 
 .guide h1{
-  font-size: 70px;
+  font-size: 5em;
   font-weight: 600;
   color: #2a3d90;
   margin-top:5;
@@ -418,7 +413,7 @@ margin-top: 2%;
 
 }
 .guide h1:hover{
-  font-size: 70px;
+  font-size: 5em;
   font-weight: 500;
   color: #FFFFFF;
   margin-top:5;
@@ -430,7 +425,7 @@ margin-top: 2%;
 }
 .guide h2{
   color: white;
-  font-size: 25px;
+  font-size: 1.6em;
   font-weight: 400;
   margin-top: 0%;
   text-align: left;
@@ -538,7 +533,7 @@ background-color:#2a3d90 ;
 
 .fondo p{
   color: white;
-font-size: 23px;
+font-size: 1.5em;
 font-family: 'Rubik', sans-serif;
 font-weight: 100;
 text-align: center;
@@ -549,7 +544,7 @@ text-align: center;
 
 .fondo h3{
 color: #2a3d90;
-font-size: 20px;
+font-size: 1.3em;
 text-align: center;
 font-family: 'Rubik', sans-serif;
 font-weight: 600;
@@ -564,7 +559,7 @@ font-weight: 600;
   }
   .fondo3 h3{
     color: #2a3d90;
-    font-size: 20px;
+    font-size: 1.3em;
     text-align: center;
     font-family: 'Rubik', sans-serif;
     font-weight: 600;
@@ -572,7 +567,7 @@ font-weight: 600;
   }
   .fondo3 p{
     color: white;
-  font-size: 23px;
+    font-size: 1.5em;
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
@@ -883,30 +878,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   font-family: 'Rubik', sans-serif;
 
 }
-/*Wave text*/
-.hit-the-floor {
-  color: #fff;
-  font-size: 20px;
-  font-weight: 500;
-  font-family: 'Rubik';
-  text-shadow:
-    0 1px 0 #ccc,
-    0 1px 0 #c9c9c9,
-    0 1px 0 #bbb,
-    0 1px 0 #b9b9b9,
-    0 1px 0 #aaa,
-    0 1px 1px rgba(0,0,0,.1),
-    0 0 1px rgba(0,0,0,.1),
-    0 1px 3px rgba(0,0,0,.3),
-    0 1px 5px rgba(0,0,0,.2),
-    0 1px 10px rgba(0,0,0,.25),
-    0 1px 10px rgba(0,0,0,.2),
-    0 1px 20px rgba(0,0,0,.15);
-}
 
-.hit-the-floor {
-  text-align: left;
-}
 
 #videointroductorio{
 
