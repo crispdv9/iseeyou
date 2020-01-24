@@ -171,8 +171,8 @@ padding-top:8%;
 .mainpage h4 {
   font-family: 'Rubik', sans-serif;
   font-size: 0.9em;
-margin-bottom: 0px;
-margin-top: 0px;
+margin-bottom: 0.5%;
+margin-top: 0;
 color: white;
 font-weight: 100;
 
@@ -265,7 +265,8 @@ div {
   margin-top: 0;
 }
 .introduction h2{
-  margin-top: 1%;
+  margin-top: 0.5%;
+
   font-family: 'Rubik', sans-serif;
 
 
@@ -274,7 +275,7 @@ div {
   font-size: 1em;
   padding-top: 5;
   margin-bottom: 2%;
-  margin-top: 0;
+  margin-top: 0.5%;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
 }
