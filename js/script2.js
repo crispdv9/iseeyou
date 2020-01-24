@@ -1,6 +1,8 @@
 $(document).ready(function () {
 
-
+  $(window).load(function(){
+         $('.preloader').fadeOut(); // set duration in brackets
+     });
 //menu
 (function($, window, document) {
 
