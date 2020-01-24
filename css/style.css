@@ -4,7 +4,10 @@ body {
   font-weight: 300;
   background-color: #e54739;
 }
+html{
+  overflow-y: scroll;
 
+}
 
 header {
 padding:0;
@@ -77,6 +80,25 @@ cursor:pointer;
 .rectangle2:hover{
   border: 1px solid #e54739 ;
   color: #e54739;
+  position: relative;
+             top: -5px;
+}
+.rectangle4:hover{
+  border: 1px solid #e54739 ;
+  color: #e54739;
+  position: relative;
+             top: -5px;
+}
+.rectangle4{
+  border: 0.1px solid #e54739 ;
+  padding:5px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+transition-duration: 0.4s;
+background-color: black;
+cursor:pointer;
+
+
+  /*margin-top: 5px; */
 }
 
 #rectangle3{
@@ -331,6 +353,7 @@ text-decoration: underline;
   background-color: #e54739;
   align-items: center;
 
+
 }
 .about a{
   align-items: center;
@@ -358,7 +381,6 @@ margin-top: 2%;
   font-size: 70px;
   font-weight: 600;
   color: #2a3d90;
-  margin-top:5;
   margin-bottom: 10%;
   text-shadow: 3px 3px #FFFFFF;
   font-family: 'Rubik', sans-serif;
@@ -369,7 +391,6 @@ margin-top: 2%;
   font-size: 70px;
   font-weight: 500;
   color: #FFFFFF;
-  margin-top:5;
   margin-bottom: 10%;
   text-shadow: 3px 3px #2a3d90;
   font-family: 'Rubik', sans-serif;
@@ -431,7 +452,6 @@ margin-top: 2%;
 }
 .partes p{
   margin-top: 0;
-  padding-bottom: 1%;
 }
 
 .partes2{
@@ -439,7 +459,7 @@ margin-top: 2%;
   padding-top:0;
 }
 .partes3{
-  padding-bottom: 10%;
+  padding-bottom: 20%;
 }
 .pictures{
   padding-top: 10%;
@@ -665,6 +685,47 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	animation:         ca3_fade_move_down 2s ease-in-out infinite;
 }
 
+.ca3-scroll-down-link2 {
+  cursor:pointer;
+	height: 60px;
+	width: 80px;
+	margin: -30px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: -6px;
+	color: #e54739;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+.ca32-scroll-down-link2 {
+  cursor:pointer;
+	height: 60px;
+	width: 80px;
+	margin: 0px 0 0 -40px;
+	line-height: 60px;
+	position: absolute;
+	left: 50%;
+	bottom: -450px;
+	color: #e54739;
+	text-align: center;
+	font-size: 70px;
+	z-index: 100;
+	text-decoration: none;
+	text-shadow: 0px 0px 3px rgba(0, 0, 0, 0.4);
+
+	-webkit-animation: ca3_fade_move_down 2s ease-in-out infinite;
+	-moz-animation:    ca3_fade_move_down 2s ease-in-out infinite;
+	animation:         ca3_fade_move_down 2s ease-in-out infinite;
+}
+
 /*animated scroll arrow animation*/
 @-webkit-keyframes ca3_fade_move_down {
   0%   { -webkit-transform:translate(0,-20px); opacity: 0;  }
@@ -869,7 +930,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
    background-color: #2a3d90;
    background-position: center;
 }
-/*glich*/
+/*scroll*/
 
 /*Video1*/
 #preguntauno{display:none;}
