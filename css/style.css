@@ -889,6 +889,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   bottom: 0;
   min-width: 100%;
   min-height: 100%;
+  object-fit: fill;
 
 }
 /*ok*/
