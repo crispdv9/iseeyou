@@ -234,10 +234,38 @@ div {
   height: 100%;
 }
 
-@media only screen and (max-width: 1000px) {
-  body {
-    background-color: black;
-  }
+@media (max-width: 640px), (max-height: 480px) {
+    html, body {
+        pointer-events: none;
+    }
+    #mainpage {
+        visibility: hidden;
+    }
+
+
+    #wall {
+        visibility: visible;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+
+        z-index: 500;
+        background-color: #2a3d90;
+
+        padding: var(--sp);
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #wall > p {
+        max-width: 380px;
+
+        font-size: 2rem;
+        line-height: 1.75;
+        text-align: center;
+        align-self: center;
+    }
 }
 
 
@@ -251,6 +279,16 @@ div {
     /*background-image: url('/images/blue.jpg');*/
 
   }
+  .intro {
+      height: 100%;
+      width: 100%;
+      position: absolute;
+      background-color: #2a3d90;
+      overflow:hidden;
+
+      /*background-image: url('/images/blue.jpg');*/
+
+    }
   .introabout {
       height: 100%;
       width: 100%;
