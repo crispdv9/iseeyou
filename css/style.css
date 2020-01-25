@@ -240,6 +240,7 @@ div {
     position: absolute;
     background-color: #2a3d90;
     overflow:hidden;
+
     /*background-image: url('/images/blue.jpg');*/
 
   }
@@ -892,6 +893,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   object-fit: fill;
 
 }
+
+
 /*ok*/
 .preloader {
    position: absolute;
