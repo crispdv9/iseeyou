@@ -229,9 +229,14 @@ header p {
 }
 
 
-div {
+/*div {
   width: 100%;
   height: 100%;
+}*/
+
+div {
+  resize: both;
+  overflow: auto;
 }
 
 .intro1 {
