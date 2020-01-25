@@ -233,9 +233,10 @@ div {
   width: 100%;
   height: 100%;
 }
-@media only screen and (max-width: 600px) {
+
+@media only screen and (max-width: 1000px) {
   body {
-    background-color: lightblue;
+    background-color: black;
   }
 }
 
@@ -562,7 +563,8 @@ font-weight: 600;
 }
 
 .fondo3 {
-  padding-top: 30%;
+  padding-top: 25%;
+
   padding-bottom: 25%;
   background-color:#2a3d90 ;
 
@@ -581,6 +583,7 @@ font-weight: 600;
   text-align: center;
   font-family: 'Rubik', sans-serif;
   font-weight: 100;
+
 
   }
 
