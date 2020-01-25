@@ -241,9 +241,7 @@ div {
     position: absolute;
 }
 @media (max-width:  568px) {
-    html, body {
-        pointer-events: none;
-    }
+
     #mainpage {
         visibility: hidden;
     }
@@ -899,7 +897,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   display: table-cell;
   vertical-align: left;
   margin: 60;
-  padding: 20;
+  padding-top: 5%;
+
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
 
