@@ -239,13 +239,15 @@ div {
     width: 0px;
     visibility: hidden;
     position: absolute;
+    overflow: hidden;
+
 }
 @media screen and (max-width: 1000px), (max-height: 500px) {
   html, body {
          pointer-events: none;
      }
     #mainpage {
-        visibility: hidden;
+display:none;
     }
     #wall {
       visibility: visible;
