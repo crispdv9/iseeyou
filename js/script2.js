@@ -79,18 +79,30 @@ $(document).ready(function () {
 
 }(jQuery, window, document));
 $.fatNav();
-});
 
 
 
-$(window).on('resize', function(){
-      var win = $(this); //this = window
 
-      if (win.width() <= 680) {
-      $( "#wall" ).show();
-    }else {
-      $( "#wall" ).hide();
-    };
+
+
 
 
 });
+
+
+
+//$(window).on('resize', function(){
+  //    var win = $(this); //this = window
+
+  //    if (win.width() <= 680) {
+  //    $( "#wall" ).show();
+
+  //  }
+
+
+
+  //  $(window).resize(function () {
+  //      if ($(window).width() < 600) {
+  //          jQuery("#wall").css();
+  //      }
+//});
