@@ -240,7 +240,7 @@ div {
     visibility: hidden;
     position: absolute;
 }
-@media screen and (max-width: 1000px), (max-height: 300px) {
+@media screen and (max-width: 1000px), (max-height: 500px) {
   html, body {
          pointer-events: none;
      }
