@@ -814,6 +814,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   -webkit-tap-highlight-color: transparent;
   -ms-touch-action: manipulation;
   touch-action: manipulation;
+  cursor:pointer;
+
 }
 .hamburger__icon {
   position: relative;
@@ -908,6 +910,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
+
 
 }
 .fat-nav li {
