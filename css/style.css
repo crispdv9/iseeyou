@@ -5,8 +5,8 @@ body {
   background-color: #e54739;
 }
 html{
-  overflow-y: scroll;
-
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
 }
 
 header {
@@ -20,7 +20,7 @@ padding:0;
 
 p{
   color: white;
-  font-size: 19px;
+  font-size: 5em;
   font-weight: 300;
   font-family: 'Rubik', sans-serif;
 
@@ -40,6 +40,7 @@ p{
   margin-left: 20%;
   justify-content: center;
   width: 60%;
+  align-items: center;
 
   }
 
@@ -87,11 +88,10 @@ cursor:pointer;
   border: 1px solid #e54739 ;
   color: #e54739;
   position: relative;
-             top: -5px;
 }
 .rectangle4{
   border: 0.1px solid #e54739 ;
-  padding:5px;
+  padding:5%;
   -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 background-color: black;
@@ -107,12 +107,16 @@ cursor:pointer;
   margin-bottom: 5px;
 
 }
+
+
+
 .mainpage {
   overflow:hidden;
   background-color: #2a3d90;
   align-content: center;
-  padding-top: 1%;
-
+  padding-left: 5%;
+  margin-top: 0;
+  padding-top: 0;
 }
 
 .mainpage h1 {
@@ -120,9 +124,10 @@ cursor:pointer;
   color: #e54739;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
-  font-size: 5em;
+  /*font-size: 5em;*/
   text-shadow: 3px 3px #FFFFFF;
   margin-bottom:10%;
+  font-size: 5vw;
 
 
 }
@@ -132,10 +137,11 @@ cursor:pointer;
   color: #e54739;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
-  font-size: 1.3em;
+  /*font-size: 1.3em;*/
   padding-bottom: 5%;
   padding-top: 5%;
   text-shadow: 0px 1px 0px rgba(0,0,0,.5);
+  font-size: 1.3vw;
 
 
 }
@@ -144,12 +150,12 @@ cursor:pointer;
   margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
-  font-size: 1.3em;
+  /*font-size: 1.3em;*/
+  font-size: 1.2vw;
 
 }
 .mainpage h3:hover {
   font-family: 'Rubik', sans-serif;
-  font-size: 15px;
 text-align: left;
 color: white;
 text-decoration: line-through;
@@ -157,24 +163,27 @@ text-decoration: line-through;
 }
 .mainpage h3 {
   font-family: 'Rubik', sans-serif;
-  font-size: 1.05em;
+  /*font-size: 1.05em;*/
 text-align: left;
 color: white;
 text-decoration: underline;
 cursor:pointer;
 font-weight: 100;
 padding-top:3%;
+font-size: 1.2vw;
 
 }
 
 
 .mainpage h4 {
   font-family: 'Rubik', sans-serif;
-  font-size: 0.9em;
-margin-bottom: 0.5%;
+  /*font-size: 0.9em;*/
+margin-bottom: 0;
 margin-top: 0;
 color: white;
 font-weight: 100;
+font-size: 1vw;
+
 
 
 }
@@ -311,8 +320,7 @@ display:none;
 }
 
 .introduction {
-  padding-top: 0;
-  margin-top: 0;
+align-items: center;
 }
 .introduction h2{
   margin-top: 0.5%;
@@ -322,12 +330,14 @@ display:none;
 
 }
 .introduction p{
-  font-size: 1em;
-  padding-top: 5;
-  margin-bottom: 2%;
+  /*font-size: 1em;*/
+  padding-top: 1;
+  margin-bottom: 1%;
   margin-top: 0.5%;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
+  font-size: 1.2vw;
+
 }
 .video {
   align:right;
