@@ -687,7 +687,7 @@ left: 50%;
   padding-bottom: 5%;
   color: white;
   font-family: 'Rubik', sans-serif;
-
+font-weight: 100;
 }
 
 
@@ -950,7 +950,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 .fat-nav li a:hover{
   color:#2a3d90;
-  text-shadow: 2rem 2rem #ffffff;
+  text-shadow: 0.5rem 0.5rem #ffffff;
   font-family: 'Rubik', sans-serif;
 
 }
