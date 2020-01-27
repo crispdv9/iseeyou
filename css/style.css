@@ -281,7 +281,7 @@ display:none;
     }
     #wall > p {
         max-width: 380px;
-        font-size: 3vw;
+        font-size: 2vw;
         line-height: 1.2;
         text-align: center;
         align-self: center;
@@ -969,6 +969,8 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   object-fit: fill;
 
 }
+
+/*menu*/
 
 
 /*ok*/
