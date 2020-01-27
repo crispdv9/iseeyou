@@ -436,6 +436,8 @@ margin-top: 2%;
 font-size: 1.2vw;
   font-weight: 100;
   font-family: 'Rubik', sans-serif;
+  padding-right: 5%;
+  padding-right: 5%;
 
 }
 
@@ -831,13 +833,13 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 .hamburger__icon {
   position: relative;
-  margin-top: 7px;
-  margin-bottom: 7px;
+  margin-top: 20%;
+  margin-bottom: 20%;
 }
 .hamburger__icon, .hamburger__icon:before, .hamburger__icon:after {
   display: block;
-  width: 25px;
-  height: 2px;
+  width: 2em;
+  height: 0.2em;
   background-color: #fff;
   -moz-transition-property: background-color, -moz-transform;
   -o-transition-property: background-color, -o-transform;
@@ -919,7 +921,6 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   vertical-align: left;
   margin: 60;
   padding-top: 5%;
-
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
 
@@ -949,7 +950,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 }
 .fat-nav li a:hover{
   color:#2a3d90;
-  text-shadow: 4px 4px #ffffff;
+  text-shadow: 2rem 2rem #ffffff;
   font-family: 'Rubik', sans-serif;
 
 }
