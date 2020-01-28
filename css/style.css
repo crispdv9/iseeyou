@@ -34,24 +34,24 @@ p{
 
 #recblue{
 
-padding-top:1%;
-padding-left:1%;
-padding-right:1%;
+padding-top:2%;
+padding-left:2%;
+padding-right:2%;
 
 padding-bottom: 2.8%;
- border: 0.5rem solid black ;
+ border: 0.3rem solid black ;
 
 }
 
 #recblue2{
 
-padding-top:1%;
-padding-left:1%;
-padding-right:1%;
+padding-top:2%;
+padding-left:2%;
+padding-right:2%;
 
 padding-bottom: 1%;
 background-color: #1a1dbf;
-border: 0.5rem solid black ;
+border: 0.3rem solid black ;
 
 }
 
@@ -513,7 +513,7 @@ font-size: 1.2vw;
   font-weight: 500;
   color: #FFFFFF;
   margin-top:5;
-  text-shadow: 0.5rem 0.5rem #FFFFFF;
+  text-shadow: 0.5rem 0.5rem #1a1dbf;
   margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
 
