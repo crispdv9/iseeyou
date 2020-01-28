@@ -888,14 +888,14 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   transition-duration: 0.4s;
 }
 .hamburger__icon:before, .hamburger__icon:after {
-  position: absolute;
+  position: relative;
   content: "";
 }
 .hamburger__icon:before {
   top: -0.5vw;
 }
 .hamburger__icon:after {
-  top: 0.5vw;
+  top: 0.2vw;
 }
 .hamburger.active .hamburger__icon {
   background-color: transparent;
