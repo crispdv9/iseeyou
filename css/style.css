@@ -692,6 +692,11 @@ left: 50%;
   font-family: 'Rubik', sans-serif;
 font-weight: 100;
 }
+.footer p{
+font-size: 1vw;
+  font-family: 'Rubik', sans-serif;
+font-weight: 100;
+}
 
 
 /*arrow*/
@@ -719,7 +724,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   cursor:pointer;
   height: 4vw;
 	width: 5vw;
-	margin: 0 0 0 -40px;
+	margin: 0 0 0 -2%;
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
