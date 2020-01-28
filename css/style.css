@@ -283,7 +283,7 @@ div {
   html, body {
          pointer-events: none;
      }
-    #mainpage {
+    #mainpage{
 display:none;
     }
     #wall {
@@ -852,7 +852,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .hamburger {
   display: block;
   width: 3vw;
-  height: 50vw;
+  height: 5vw;
   position: fixed;
   top: 0;
   left: 0;
@@ -876,7 +876,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .hamburger__icon, .hamburger__icon:before, .hamburger__icon:after {
   display: block;
   width: 2vw;
-  height: 0.2vw;
+  height: 0.3vw;
   background-color: #fff;
   -moz-transition-property: background-color, -moz-transform;
   -o-transition-property: background-color, -o-transform;
@@ -888,14 +888,14 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   transition-duration: 0.4s;
 }
 .hamburger__icon:before, .hamburger__icon:after {
-  position: relative;
+  position: absolute;
   content: "";
 }
 .hamburger__icon:before {
   top: -0.5vw;
 }
 .hamburger__icon:after {
-  top: 0.4vw;
+  top: 0.5vw;
 }
 .hamburger.active .hamburger__icon {
   background-color: transparent;
