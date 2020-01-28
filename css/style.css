@@ -283,12 +283,10 @@ div {
   html, body {
          pointer-events: none;
      }
-    #mainpage{
+    #mainpage, #about{
 display:none;
 }
-    #about{
-display:none;
-    }
+
     #wall {
       visibility: visible;
       position: absolute;
