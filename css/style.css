@@ -285,6 +285,9 @@ div {
      }
     #mainpage{
 display:none;
+}
+    #about{
+display:none;
     }
     #wall {
       visibility: visible;
@@ -296,7 +299,6 @@ display:none;
       z-index: 500;
       background-color: #1a1dbf;
 
-      padding: var(--sp);
 
       display: flex;
       flex-direction: column;
