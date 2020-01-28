@@ -32,7 +32,12 @@ p{
 
 }
 
+#recblue{
 
+  padding:1%;
+  background-color: #1a1dbf;
+
+}
 #rectangle {
   margin-top: 40%;
   border: 3px solid white ;
@@ -41,7 +46,6 @@ p{
   justify-content: center;
   width: 60%;
   align-items: center;
-
   }
 
   .rectangle {
@@ -86,7 +90,6 @@ cursor:pointer;
 .rectangle4:hover{
   border: 0.3rem solid #ea4637 ;
   color: #ea4637;
-  position: relative;
   position: relative;
              top: -0.5rem;
 }
@@ -518,6 +521,8 @@ margin-bottom: 0;
 }
 .partes p{
   margin-top: 0;
+  margin-bottom: 2%;
+
 }
 
 .partes2{
