@@ -34,9 +34,30 @@ p{
 
 #recblue{
 
-padding-top:0;
-padding-bottom: 3%;
- background-color: #1a1dbf;
+padding-top:1%;
+padding-left:1%;
+padding-right:1%;
+
+padding-bottom: 2%;
+ border: 0.8rem solid black ;
+
+}
+
+#recblue2{
+
+padding-top:1%;
+padding-left:1%;
+padding-right:1%;
+
+padding-bottom: 1%;
+background-color: #1a1dbf;
+border: 0.8rem solid black ;
+
+}
+
+#recblue2 a{
+
+color: #ea4637;
 
 }
 #rectangle {
