@@ -209,7 +209,7 @@ header .row {
 header .row2 {
   display: flex;
   align-items: left;
-  background-color: #1a1dbf;
+  background-color: #e54739;
 
 }
 header h1 {
@@ -223,7 +223,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-  background-color: #1a1dbf;
+  background-color: #e54739;
   margin-top: 30px;
   font-family: 'Rubik', sans-serif;
 
@@ -234,7 +234,7 @@ header p {
   text-size: 1.5em;
   text-decoration: underline;
   color: black;
-  background-color: #1a1dbf;
+  background-color: #e54739;
   font-family: 'Rubik', sans-serif;
 
 
@@ -297,7 +297,7 @@ display:none;
     /*background-image: url('/images/blue.jpg');*/
 
   }
-  .intro {
+  .intro /*background color main page*/{
       height: 100%;
       width: 100%;
       position: absolute;
@@ -571,9 +571,11 @@ background-color:#2a3d90 ;
 .fondo1 p{
         color: white;
         font-size: 1.6vw;
-        text-align: center;
+        text-align: left;
         font-family: 'Rubik', sans-serif;
         line-height: 2;
+padding-left: 45%;
+padding-top: 50%;
 
         }
 
