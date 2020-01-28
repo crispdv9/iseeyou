@@ -34,8 +34,9 @@ p{
 
 #recblue{
 
-  padding:1%;
-  background-color: #1a1dbf;
+padding-top:0;
+padding-bottom: 3%;
+ background-color: #1a1dbf;
 
 }
 #rectangle {
