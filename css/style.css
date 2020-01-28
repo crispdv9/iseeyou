@@ -2,7 +2,7 @@
 body {
   font-family: 'Rubik', sans-serif;
   font-weight: 300;
-  background-color: #e54739;
+  background-color: #ea4637;
 }
 html{
   -webkit-text-size-adjust: 100%;
@@ -14,7 +14,7 @@ padding:0;
 
 }
 #introtarget p{
-  color:#e54739;
+  color:#ea4637;
   align-items: center;
 }
 
@@ -26,7 +26,7 @@ p{
 
 }
 .about p a{
-  color: #2a3d90;
+  color: #1a1dbf;
   font-weight: 100px;
   font-family: 'Rubik', sans-serif;
 
@@ -47,14 +47,14 @@ p{
   .rectangle {
     background-color: white;
     color: white;
-    border: 3px solid #e54739;
+    border: 3px solid #ea4637;
     -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
 cursor:pointer;
   }
 
   .rectangle:hover{
-    background-color: #2a3d90;
+    background-color: #1a1dbf;
     color: white;
 
 
@@ -79,13 +79,13 @@ cursor:pointer;
   /*margin-top: 5px; */
 }
 .rectangle2:hover{
-  border: 0.3rem solid #e54739 ;
-  color: #e54739;
+  border: 0.3rem solid #ea4637 ;
+  color: #ea4637;
 
 }
 .rectangle4:hover{
-  border: 0.3rem solid #e54739 ;
-  color: #e54739;
+  border: 0.3rem solid #ea4637 ;
+  color: #ea4637;
   position: relative;
   position: relative;
              top: -0.5rem;
@@ -122,7 +122,7 @@ cursor:pointer;
 
 .mainpage h1 {
   margin-top:15%;
-  color: #e54739;
+  color: #ea4637;
   font-family: 'Rubik', sans-serif;
   font-weight: 600;
   /*font-size: 5em;*/
@@ -135,7 +135,7 @@ cursor:pointer;
 
 
 .mainpage h2 {
-  color: #e54739;
+  color: #ea4637;
   font-family: 'Rubik', sans-serif;
   font-weight: 500;
   /*font-size: 1.3em;*/
@@ -209,7 +209,7 @@ header .row {
 header .row2 {
   display: flex;
   align-items: left;
-  background-color: #e54739;
+  background-color: #ea4637;
 
 }
 header h1 {
@@ -223,7 +223,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-  background-color: #e54739;
+  background-color: #ea4637;
   margin-top: 30px;
   font-family: 'Rubik', sans-serif;
 
@@ -234,7 +234,7 @@ header p {
   text-size: 1.5em;
   text-decoration: underline;
   color: black;
-  background-color: #e54739;
+  background-color: #ea4637;
   font-family: 'Rubik', sans-serif;
 
 
@@ -271,7 +271,7 @@ display:none;
       height: 100%;
 
       z-index: 500;
-      background-color: #2a3d90;
+      background-color: #1a1dbf;
 
       padding: var(--sp);
 
@@ -311,7 +311,7 @@ display:none;
       height: 100%;
       width: 100%;
       position: absolute;
-      background-color: #e54739;
+      background-color: #ea4637;
       overflow:hidden;
 
     }
@@ -320,7 +320,7 @@ display:none;
   height: 100%;
   width: 100%;
   position: absolute;
-  background-color: #e54739;
+  background-color: #ea4637;
   overflow:hidden;
 }
 
@@ -373,7 +373,7 @@ video {
 
 
 .guide {
-background-color: #e54739;
+background-color: #ea4637;
 height: 100%;
 width: 100%;
 padding-left: 5%;
@@ -381,7 +381,7 @@ padding-right: 5%;
 }
 
 .guide p{
-  margin-top: 10%;
+  margin-top: 5%;
   font-size: 1.2vw;
   font-weight: 200;
   font-family: 'Rubik', sans-serif;
@@ -389,14 +389,14 @@ padding-right: 5%;
 
 }
 .guide a:hover{
-  background-color: #e54739;
+  background-color: #ea4637;
   align-items: center;
 text-decoration: line-through;
-color: #2a3d90;
+color: #1a1dbf;
 }
 .guide a{
   align-items: center;
-color: #2a3d90;
+color: #1a1dbf;
 font-weight: 400;
 text-decoration: underline;
 
@@ -415,7 +415,7 @@ text-decoration: underline;
 }
 
 .about {
-  background-color: #e54739;
+  background-color: #ea4637;
   align-items: center;
 padding-left: 5%;
 padding-right: 5%;
@@ -423,16 +423,16 @@ padding-right: 5%;
 }
 .about a{
   align-items: center;
-color: #2a3d90;
+color: #1a1dbf;
 font-family: 'Rubik', sans-serif;
 font-weight: 400;
 
 }
 .about a:hover{
-  background-color: #e54739;
+  background-color: #ea4637;
   align-items: center;
 text-decoration: line-through;
-color: #2a3d90;
+color: #1a1dbf;
 }
 
 .about  p{
@@ -448,7 +448,7 @@ font-size: 1.2vw;
 .about h1{
   font-size: 5vw;
   font-weight: 600;
-  color: #2a3d90;
+  color: #1a1dbf;
   margin-bottom: 10%;
   text-shadow: 0.5rem 0.5rem #FFFFFF;
   font-family: 'Rubik', sans-serif;
@@ -459,12 +459,12 @@ font-size: 1.2vw;
   font-weight: 500;
   color: #FFFFFF;
   margin-bottom: 10%;
-  text-shadow: 3px 3px #2a3d90;
+  text-shadow: 3px 3px #1a1dbf;
   font-family: 'Rubik', sans-serif;
 
 }
 .about h2{
-  color: #2a3d90;
+  color: #1a1dbf;
   font-size: 1.6vw;
   font-weight: 600;
   margin-bottom: 4.7%;
@@ -476,10 +476,10 @@ font-size: 1.2vw;
 .guide h1{
   font-size: 5vw;
   font-weight: 600;
-  color: #2a3d90;
+  color: #1a1dbf;
   margin-top:5;
   text-shadow: 0.5rem 0.5rem #FFFFFF;
-  margin-bottom: 20%;
+  margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
 
 
@@ -488,8 +488,8 @@ font-size: 1.2vw;
   font-weight: 500;
   color: #FFFFFF;
   margin-top:5;
-  text-shadow: 3px 3px #2a3d90;
-  margin-bottom: 20%;
+  text-shadow: 0.5rem 0.5rem #FFFFFF;
+  margin-bottom: 5%;
   font-family: 'Rubik', sans-serif;
 
 
@@ -501,7 +501,7 @@ font-size: 1.2vw;
   margin-top: 0%;
   text-align: left;
   font-family: 'Rubik', sans-serif;
-
+margin-bottom: 0;
 }
 .about h4{
   padding-top: 10%;
@@ -518,7 +518,6 @@ font-size: 1.2vw;
 }
 .partes p{
   margin-top: 0;
-  padding-bottom: 1%;
 }
 
 .partes2{
@@ -536,7 +535,7 @@ font-size: 1.2vw;
 }
 .u {
   text-decoration: underline;
-  color: #e54739;
+  color: #ea4637;
 }
 .adviceguide{
   padding-top: 10%;
@@ -548,7 +547,7 @@ font-size: 1.2vw;
 }
 /*first question*/
 .call{
-  background-color:#2a3d90 ;
+  background-color:#1a1dbf ;
   overflow: hidden;
 
 }
@@ -563,11 +562,11 @@ align-items: center;
 align-content:center;
   padding-top: 5%;
   padding-bottom: 25%;
-  background-color:#2a3d90 ;
+  background-color:#1a1dbf ;
   }
   .fondo1 {
   overflow: hidden;
-background-color:#2a3d90 ;
+background-color:#1a1dbf ;
     }
 
 .fondo1 p{
@@ -584,7 +583,7 @@ padding-top: 50%;
 .fondo2 {
   padding-top: 20%;
   padding-bottom: 25%;
-  background-color:#2a3d90 ;
+  background-color:#1a1dbf ;
   align-items: center;
   font-family: 'Rubik', sans-serif;
 
@@ -626,8 +625,8 @@ padding-top: 15%;
 }
 
 .fondo h3{
-color: #2a3d90;
-font-size: 1.6vw;
+color: #1a1dbf;
+font-size: 1.4vw;
 text-align: center;
 font-family: 'Rubik', sans-serif;
 font-weight: 600;
@@ -638,11 +637,11 @@ font-weight: 600;
   padding-top: 25%;
 
   padding-bottom: 25%;
-  background-color:#2a3d90 ;
+  background-color:#1a1dbf ;
 
   }
   .fondo3 h3{
-    color: #2a3d90;
+    color: #1a1dbf;
     font-size: 1.6vw;
     text-align: center;
     font-family: 'Rubik', sans-serif;
@@ -673,7 +672,7 @@ font-weight: 600;
   padding-top: 10%;
 }
 /*.container-fluid {
-  background: #2a3d90;
+  background: #1a1dbf;
 }*/
 
 .row-full {
@@ -689,7 +688,7 @@ left: 50%;
 
 /*footer*/
 .footer {
-  background-color: #e54739;
+  background-color: #ea4637;
   padding-top: 10%;
   padding-bottom: 5%;
   color: white;
@@ -733,7 +732,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	position: absolute;
 	left: 50%;
   bottom: -20rem;
-	color: #e54739;
+	color: #ea4637;
 	text-align: center;
 	font-size: 70px;
 	z-index: 100;
@@ -753,7 +752,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	position: absolute;
 	left: 50%;
 	bottom: -450px;
-	color: #e54739;
+	color: #ea4637;
 	text-align: center;
 	font-size: 70px;
 	z-index: 100;
@@ -774,7 +773,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	position: absolute;
 	left: 50%;
 	bottom: -20rem;
-	color: #e54739;
+	color: #ea4637;
 	text-align: center;
 	font-size: 70px;
 	z-index: 100;
@@ -794,7 +793,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	position: absolute;
 	left: 50%;
 	bottom: -450px;
-	color: #e54739;
+	color: #ea4637;
 	text-align: center;
 	font-size: 70px;
 	z-index: 100;
@@ -867,7 +866,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   content: "";
 }
 .hamburger__icon:before {
-  top: -0.6vw;
+  top: -0.5vw;
 }
 .hamburger__icon:after {
   top: 0.4vw;
@@ -961,7 +960,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 }
 .fat-nav li a:hover{
-  color:#2a3d90;
+  color:#1a1dbf;
   text-shadow: 0.5rem 0.5rem #ffffff;
   font-family: 'Rubik', sans-serif;
 
@@ -993,7 +992,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
    z-index: 9999;
    background-image: url('../images/mouse.png');
    background-repeat: no-repeat;
-   background-color: #2a3d90;
+   background-color: #1a1dbf;
    background-position: center;
 }
 /*scroll*/
