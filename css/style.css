@@ -112,7 +112,7 @@ cursor:pointer;
 
 .mainpage {
   overflow:hidden;
-  background-color: #2a3d90;
+  background-color: #1a1dbf;
   align-content: center;
   padding-left: 6%;
   padding-right:5%;
@@ -202,14 +202,14 @@ font-size: 1vw;
 header .row {
   display: flex;
   align-items: left;
-  background-color: #2a3d90;
+  background-color: #1a1dbf;
 
 }
 
 header .row2 {
   display: flex;
   align-items: left;
-  background-color: #e54739;
+  background-color: #1a1dbf;
 
 }
 header h1 {
@@ -223,7 +223,7 @@ header h1 {
 header nav {
   display: flex;
   justify-content: flex-end;
-  background-color: #2a3d90;
+  background-color: #1a1dbf;
   margin-top: 30px;
   font-family: 'Rubik', sans-serif;
 
@@ -234,7 +234,7 @@ header p {
   text-size: 1.5em;
   text-decoration: underline;
   color: black;
-  background-color: #2a3d90;
+  background-color: #1a1dbf;
   font-family: 'Rubik', sans-serif;
 
 
@@ -292,7 +292,7 @@ display:none;
     height: 100%;
     width: 100%;
     position: absolute;
-    background-color: #2a3d90;
+    background-color: #1a1dbf;
     overflow:hidden;
     /*background-image: url('/images/blue.jpg');*/
 
@@ -301,7 +301,7 @@ display:none;
       height: 100%;
       width: 100%;
       position: absolute;
-      background-color: #2a3d90;
+      background-color: #1a1dbf;
       overflow:hidden;
 
       /*background-image: url('/images/blue.jpg');*/
@@ -769,7 +769,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
-	bottom: -8rem;
+	bottom: -20rem;
 	color: #e54739;
 	text-align: center;
 	font-size: 70px;
