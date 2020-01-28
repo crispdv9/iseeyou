@@ -58,6 +58,13 @@ border: 0.3rem solid black ;
 #recblue2 a{
 
 color: #ea4637;
+background-color: #1a1dbf;
+
+}
+
+#recblue2 a:hover {
+
+text-decoration: line-through;
 
 }
 #rectangle {
