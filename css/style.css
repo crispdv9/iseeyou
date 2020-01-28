@@ -398,6 +398,8 @@ color: #2a3d90;
   align-items: center;
 color: #2a3d90;
 font-weight: 400;
+text-decoration: underline;
+
 }
 
 .fondo1 a:hover{
