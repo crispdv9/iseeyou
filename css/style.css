@@ -79,18 +79,19 @@ cursor:pointer;
   /*margin-top: 5px; */
 }
 .rectangle2:hover{
-  border: 3px solid #e54739 ;
+  border: 0.5rem solid #e54739 ;
   color: #e54739;
+
+}
+.rectangle4:hover{
+  border: 0.3rem solid #e54739 ;
+  color: #e54739;
+  position: relative;
   position: relative;
              top: -0.5rem;
 }
-.rectangle4:hover{
-  border: 0.1rem solid #e54739 ;
-  color: #e54739;
-  position: relative;
-}
 .rectangle4{
-  border: 0.1rem solid #e54739 ;
+  border: 0.3rem solid #e54739 ;
   padding:5%;
   -webkit-transition-duration: 0.4s; /* Safari */
 transition-duration: 0.4s;
