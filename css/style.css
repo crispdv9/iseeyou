@@ -468,11 +468,28 @@ width: 80%;
 padding-top: 0;
 margin-top: 0;
 
+
+}
+.guide h3 a{
+  font-family: 'Rubik', sans-serif;
+  /*font-size: 1.05em;*/
+  text-align: center;
+color: white;
+cursor:pointer;
+font-weight: 100;
+font-size: 1.2vw;
+width: 80%;
+padding-top: 0;
+margin-top: 0;
+
+
 }
 
-.guide h3:hover{
+.guide h3:hover {
 
 text-decoration: line-through;
+color: white;
+cursor:pointer;
 
 
 }
