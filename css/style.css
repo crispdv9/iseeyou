@@ -432,6 +432,7 @@ width: 100%;
 padding-left: 7%;
 padding-right: 5%;
 overflow: hidden;
+padding-bottom: 0;
 }
 
 .guide p{
@@ -465,7 +466,7 @@ cursor:pointer;
 font-weight: 100;
 font-size: 1.2vw;
 width: 80%;
-padding-top: 0;
+padding-top: 4%;
 margin-top: 0;
 
 
