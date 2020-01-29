@@ -429,7 +429,7 @@ video {
 background-color: #ea4637;
 height: 100%;
 width: 100%;
-padding-left: 5%;
+padding-left: 7%;
 padding-right: 5%;
 overflow: hidden;
 }
@@ -509,7 +509,7 @@ text-decoration: underline;
 .about {
   background-color: #ea4637;
   align-items: center;
-padding-left: 5%;
+padding-left: 7%;
 padding-right: 5%;
 
 }
@@ -783,7 +783,7 @@ left: 50%;
 /*footer*/
 .footer {
   background-color: #ea4637;
-  padding-top: 10%;
+  padding-top: 3%;
   padding-bottom: 5%;
   color: white;
   font-family: 'Rubik', sans-serif;
