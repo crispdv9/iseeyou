@@ -296,10 +296,15 @@ div {
   html, body {
          pointer-events: none;
      }
-    #mainpage, #about{
+    #mainpage{
 display:none;
 }
-
+#about{
+display:none;
+}
+#guide{
+display:none;
+}
     #wall {
       visibility: visible;
       position: absolute;
@@ -425,7 +430,6 @@ padding-right: 5%;
 
 }
 .guide a:hover{
-  background-color: #ea4637;
   align-items: center;
 text-decoration: line-through;
 color: #1a1dbf;
