@@ -218,7 +218,7 @@ color: white;
 text-decoration: underline;
 cursor:pointer;
 font-weight: 100;
-padding-top:3%;
+padding-top: 3%;
 font-size: 1.2vw;
 width: 80%;
 
@@ -431,6 +431,7 @@ height: 100%;
 width: 100%;
 padding-left: 5%;
 padding-right: 5%;
+overflow: hidden;
 }
 
 .guide p{
@@ -451,6 +452,28 @@ color: #1a1dbf;
 color: #1a1dbf;
 font-weight: 400;
 text-decoration: underline;
+
+}
+
+.guide h3 {
+  font-family: 'Rubik', sans-serif;
+  /*font-size: 1.05em;*/
+  text-align: center;
+color: white;
+text-decoration: underline;
+cursor:pointer;
+font-weight: 100;
+font-size: 1.2vw;
+width: 80%;
+padding-top: 0;
+margin-top: 0;
+
+}
+
+.guide h3:hover{
+
+text-decoration: line-through;
+
 
 }
 
