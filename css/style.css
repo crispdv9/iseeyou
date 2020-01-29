@@ -902,7 +902,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 .hamburger__icon, .hamburger__icon:before, .hamburger__icon:after {
   display: block;
   width: 2vw;
-  height: 0.25vw;
+  height: 0.2vw;
   background-color: #fff;
   -moz-transition-property: background-color, -moz-transform;
   -o-transition-property: background-color, -o-transform;
@@ -921,7 +921,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   top: -0.45vw;
 }
 .hamburger__icon:after {
-  top: 0.2vw;
+  top: 0.25vw;
 }
 .hamburger.active .hamburger__icon {
   background-color: transparent;
