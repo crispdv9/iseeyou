@@ -40,23 +40,23 @@ $(document).ready(function() {
       });
     }
 
-    videoo2.onended = function(e) {
-      $("#preguntaodos").show();
-      $( "#yeso2" ).click(function() {
-        conto2.style.display = "none";
-        conto3.style.display = "block";
-        videoo3.play();
+    // videoo2.onended = function(e) {
+    //   $("#preguntaodos").show();
+    //   $( "#yeso2" ).click(function() {
+    //     conto2.style.display = "none";
+    //     conto3.style.display = "block";
+    //     videoo3.play();
+    //
+    //     $( "#preguntaodos" ).hide();
+    //   });
+    //   $( "#noo2" ).click(function() {
+    //     window.location.href = "no6.html";
+    //   });
+    // }
 
-        $( "#preguntaodos" ).hide();
-      });
-      $( "#noo2" ).click(function() {
-        window.location.href = "no6.html";
-      });
-    }
 
 
-
-      videoo3.onended = function(e) {
+      videoo2.onended = function(e) {
         $("#preguntaotres").show();
         $( "#yeso3" ).click(function() {
 
