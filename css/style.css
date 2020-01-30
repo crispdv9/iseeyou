@@ -795,7 +795,11 @@ font-size: 1vw;
   font-family: 'Rubik', sans-serif;
 font-weight: 100;
 }
+/*controls*/
 
+video::-webkit-media-controls-panel  {
+   background-image: none !important ;
+}
 
 /*arrow*/
 
