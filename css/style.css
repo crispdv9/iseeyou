@@ -853,13 +853,13 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 .ca3-scroll-down-link2 {
   cursor:pointer;
-	height: 5vw;
-	width: 6vw;
+	height: 3vw;
+	width: 5vw;
 	margin: 0 0 0 -5%;
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
-	bottom: -5rem;
+	bottom: -2rem;
 	color: #ea4637;
 	text-align: center;
 	font-size: 70px;
