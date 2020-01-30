@@ -965,10 +965,10 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   content: "";
 }
 .hamburger__icon:before {
-  top: -0.45vw;
+  top: -0.5vw;
 }
 .hamburger__icon:after {
-  top: 0.25vw;
+  top: 0.3vw;
 }
 .hamburger.active .hamburger__icon {
   background-color: transparent;
