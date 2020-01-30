@@ -430,7 +430,7 @@ video {
 background-color: #ea4637;
 height: 100%;
 width: 100%;
-padding-left: 7%;
+padding-left: 8%;
 padding-right: 5%;
 overflow: hidden;
 padding-bottom: 0;
@@ -461,7 +461,6 @@ text-decoration: underline;
   /*font-size: 1.05em;*/
   text-align: right;
 color: white;
-text-decoration: underline;
 cursor:pointer;
 font-weight: 100;
 font-size: 1.2vw;
@@ -472,12 +471,7 @@ overflow: hidden;
 
 
 }
-.guide h3:hover{
 
-text-decoration: line-through;
-
-
-}
 
 
 
