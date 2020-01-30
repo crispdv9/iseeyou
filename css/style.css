@@ -440,7 +440,7 @@ padding-bottom: 0;
   font-size: 1.2vw;
   font-weight: 200;
   font-family: 'Rubik', sans-serif;
-
+  text-align: justify;
 
 }
 .guide a:hover{
@@ -520,6 +520,8 @@ font-size: 1.2vw;
   font-weight: 100;
   font-family: 'Rubik', sans-serif;
   padding-right: 5%;
+text-align: justify;
+
 
 }
 
