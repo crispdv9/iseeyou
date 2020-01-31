@@ -810,7 +810,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   cursor:pointer;
   height: 4vw;
 	width: 5vw;
-	margin: 0 0 0 -2%;
+	margin: 0 0 0 -3vw;
 	line-height: 60px;
 	position: absolute;
 	left: 50%;
