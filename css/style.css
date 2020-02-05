@@ -820,23 +820,20 @@ left: 50%;
 
 }
 #reload p{
-  font-size: 1vw;
   margin-right: 10%;
   text-align: right;
   padding-bottom: 0;
   padding-top: 2%;
   cursor:pointer;
-
+  text-shadow: 0.3rem 0.3rem #ea4637;
+  font-size: 1.5vw;
+  font-weight: 600;
 }
 
 #reload p:hover{
-  font-size: 1vw;
-  margin-right: 10%;
-  text-align: right;
-  padding-bottom: 0;
-  padding-top: 2%;
+  text-shadow: 0.3rem 0.3rem #ffffff;
+  color:#ea4637;
   cursor:pointer;
-text-decoration: line-through;
 }
 #home img{
   padding-bottom: 0;
@@ -859,7 +856,21 @@ text-decoration: line-through;
   cursor:pointer;
 
 }
-
+#home p{
+  padding-bottom: 0;
+  margin-left: 18%;
+  padding-top: 0;
+  cursor:pointer;
+  text-shadow: 0.3rem 0.3rem #ea4637;
+  font-size: 1.5vw;
+  font-weight: 600;
+  text-align: left;
+}
+#home p:hover{
+  text-shadow: 0.3rem 0.3rem #ffffff;
+  color:#ea4637;
+  cursor:pointer;
+}
 
 /*footer*/
 .footer {
