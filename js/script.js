@@ -75,15 +75,34 @@ $(document).ready(function() {
 //video4
 
 //video5
-
+$("#home").click(function(){
+            window.location.href = "/page.html";
+        });
+        $("#home2").click(function(){
+                    window.location.href = "/page.html";
+                });
+                $("#home3").click(function(){
+                            window.location.href = "/page.html";
+                        });
 //video6
+
+
 
 $("#reload").click(function(){
             location.reload(true);
         });
 
-        $("#home").click(function(){
-                    window.location.href = "/page.html";
+        $("#reload2").click(function(){
+          video2.play();
+          $("#preguntados").hide();
+
                 });
+
+                $("#reload3").click(function(){
+                  video3.play();
+                  $("#preguntatres").hide();
+
+                        });
+
 
 });
