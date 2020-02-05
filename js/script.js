@@ -76,13 +76,13 @@ $(document).ready(function() {
 
 //video5
 $("#home").click(function(){
-            window.location.href = "/page.html";
+            window.location.href = "../page.html";
         });
         $("#home2").click(function(){
-                    window.location.href = "/page.html";
+                    window.location.href = "../page.html";
                 });
                 $("#home3").click(function(){
-                            window.location.href = "/page.html";
+                            window.location.href = "../page.html";
                         });
 //video6
 
