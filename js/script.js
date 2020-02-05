@@ -78,8 +78,12 @@ $(document).ready(function() {
 
 //video6
 
+$("#reload").click(function(){
+            location.reload(true);
+        });
 
-
-
+        $("#home").click(function(){
+                    window.location.href = "/page.html";
+                });
 
 });

@@ -634,6 +634,11 @@ margin-bottom: 0;
   align-items: center;
 }
 
+
+section #preguntauno .row{
+  margin-top: 0;
+}
+
 .fondo {
 overflow: hidden;
 align-items: center;
@@ -697,7 +702,7 @@ font-size: 1.8vw;
 font-family: 'Rubik', sans-serif;
 font-weight: 400;
 text-align: center;
-padding-top: 13%;
+padding-top: 10%;
 
 
 }
@@ -762,8 +767,71 @@ margin-top: 100px;
 left: 50%;
 
 }
+/*reload*/
+#reload {
+  padding-top: 0;
+  margin-top: 0;
+  position: relative;
+}
+#reload img{
+  padding-bottom: 0;
+  margin-left: 80%;
+  align-items: right;
+  margin-top: 0;
+  align-content: right;
+  margin-right: 0;
+  cursor:pointer;
+  padding-top: 0;
 
 
+}
+#reload p{
+  font-size: 1vw;
+  margin-right: 10%;
+  text-align: right;
+  padding-bottom: 0;
+  padding-top: 2%;
+  cursor:pointer;
+
+}
+
+#reload p:hover{
+  font-size: 1vw;
+  margin-right: 10%;
+  text-align: right;
+  padding-bottom: 0;
+  padding-top: 2%;
+  cursor:pointer;
+text-decoration: line-through;
+}
+#home img{
+  padding-bottom: 0;
+  margin-left: 16%;
+  padding-top: 0;
+  cursor:pointer;
+
+}
+
+#home p{
+  font-size: 1vw;
+  margin-left: 10%;
+  text-align: left;
+  padding-bottom: 0;
+  padding-top: 2%;
+  cursor:pointer;
+
+}
+
+#home p:hover{
+  font-size: 1vw;
+  margin-left: 10%;
+  text-align: left;
+  padding-bottom: 0;
+  padding-top: 2%;
+  cursor:pointer;
+  text-decoration: line-through;
+
+}
 /*footer*/
 .footer {
   background-color: #ea4637;
@@ -904,6 +972,14 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   100% { transform:translate(0,20px); opacity: 0; }
 }
 
+
+/*color big screen mainpage*/
+@media screen and (min-width: 3839px), (min-height: 2159px) {
+    .mainpage {
+      background-color: red;
+    }
+}
+
 /*menu*/
 .hamburger {
   display: block;
@@ -960,16 +1036,16 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   background-color: #fff;
 }
 .hamburger.active .hamburger__icon:before {
-  -moz-transform: translateY(5vw) rotate(45deg);
-  -ms-transform: translateY(5vw) rotate(45deg);
-  -webkit-transform: translateY(5vw) rotate(45deg);
-  transform: translateY(5vw) rotate(45deg);
+  -moz-transform: translateY(0.5vw) rotate(45deg);
+  -ms-transform: translateY(0.5vw) rotate(45deg);
+  -webkit-transform: translateY(0.5vw) rotate(45deg);
+  transform: translateY(0.5vw) rotate(45deg);
 }
 .hamburger.active .hamburger__icon:after {
-  -moz-transform: translateY(-5vw) rotate(-45deg);
-  -ms-transform: translateY(-5vw) rotate(-45deg);
-  -webkit-transform: translateY(-5vw) rotate(-45deg);
-  transform: translateY(-5vw) rotate(-45deg);
+  -moz-transform: translateY(-0.5vw) rotate(-45deg);
+  -ms-transform: translateY(-0.5vw) rotate(-45deg);
+  -webkit-transform: translateY(-0.5vw) rotate(-45deg);
+  transform: translateY(-0.5vw) rotate(-45deg);
 }
 
 .fat-nav {
