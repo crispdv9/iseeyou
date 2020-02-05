@@ -68,6 +68,27 @@ $(document).ready(function() {
         });
       }
 
+//clicks
 
+$("#home").click(function(){
+            window.location.href = "/page.html";
+        });
+        $("#home2").click(function(){
+                    window.location.href = "/page.html";
+                });
+
+//video6
+
+
+
+$("#reload").click(function(){
+            location.reload(true);
+        });
+
+                $("#reload2").click(function(){
+                  videoo2.play();
+                  $("#preguntaotres").hide();
+
+                        });
 
 });

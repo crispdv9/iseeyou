@@ -68,6 +68,35 @@ $(document).ready(function() {
         });
       }
 
+//cliskc
+$("#home").click(function(){
+            window.location.href = "/page.html";
+        });
+        $("#home2").click(function(){
+                    window.location.href = "/page.html";
+                });
+                $("#home3").click(function(){
+                            window.location.href = "/page.html";
+                        });
+//video6
+
+
+
+$("#reload").click(function(){
+            location.reload(true);
+        });
+
+        $("#reload2").click(function(){
+          videoa2.play();
+          $("#preguntaados").hide();
+
+                });
+
+                $("#reload3").click(function(){
+                  videoa3.play();
+                  $("#preguntaatres").hide();
+
+                        });
 
 
 });
