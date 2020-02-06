@@ -103,6 +103,6 @@ $("#reload").click(function(){
                   $("#preguntatres").hide();
 
                         });
-
+//control bar
 
 });
