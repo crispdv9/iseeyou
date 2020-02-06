@@ -477,14 +477,11 @@ overflow: hidden;
 
 
 .fondo1 a:hover{
+  text-shadow: 0.5rem 0.5rem #FFFFFF;
+
 color: #ea4637;
-text-shadow: 0.3rem 0.3rem #ffffff;
-text-decoration: none;
-
 }
-
 .fondo1 a{
-color: #ffffff;
 
 
 }
@@ -655,24 +652,26 @@ align-items: left;
     }
 
 .fondo1 p{
-        color: #ffffff;
+        color: white;
         font-size: 1.6vw;
         text-align: center;
         font-family: 'Rubik', sans-serif;
         line-height: 2;
-        font-weight: 600;
-        text-shadow: 0.3rem 0.3rem #ea4637;
-padding-top: 45%;
+        text-shadow: 0.5rem 0.5rem #FFFFFF;
+        color:#ea4637;
+
+
 
         }
         .fondo1 img{
-padding-top: 0;
-margin-top: 0;
-display: inline-grid;
-margin-left: 5%;
-cursor: pointer;
-                }
+                color: white;
+                font-size: 1.6vw;
+                text-align: left;
+                font-family: 'Rubik', sans-serif;
+                line-height: 2;
 
+
+                }
 .fondo2 {
   padding-top: 20%;
   padding-bottom: 25%;
