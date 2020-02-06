@@ -1088,8 +1088,11 @@ html body [data-ca3_iconfont="ETmodules"]::before {
 
 /*color big screen mainpage*/
 @media screen and (min-width: 3839px), (min-height: 2159px) {
-    .mainpage {
-      background-color: red;
+    .intro {
+      background-color: #00349C;
+    }
+    .mainpage h2{
+      color: #E11800
     }
 }
 
