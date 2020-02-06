@@ -85,6 +85,14 @@ $("#reload").click(function(){
                   $("#preguntastres").hide();
 
                         });
+//controls
+
+videos1.addEventListener('ended', () => {
+      videos1.removeAttribute('controls');
+    });
+videos2.addEventListener('ended', () => {
+      videos2.removeAttribute('controls');
+    });
 
 
 });

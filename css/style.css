@@ -1121,14 +1121,23 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     .mainpage h2{
       color: #E11800;
     }
-    .guide{
+    .mainpage h3{
+      text-shadow: 0.5rem 0.5rem #E11800;
+
+    }
+    .introguide {
       background-color: #E11800;
 
     }
-    .about{
+    .introabout {
       background-color: #E11800;
 
     }
+.fat-nav__wrapper {
+  background-color: #E11800;
+
+  }
+
 }
 
 /*menu*/
@@ -1207,7 +1216,7 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   display: none;
   width: 100%;
   height: 100%;
-  background: rgba(229, 71, 57);
+  background-color: #ea4637;
   -moz-transform: scale(1.4);
   -ms-transform: scale(1.4);
   -webkit-transform: scale(1.4);

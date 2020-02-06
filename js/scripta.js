@@ -98,5 +98,16 @@ $("#reload").click(function(){
 
                         });
 
+//controls
+
+videoa1.addEventListener('ended', () => {
+      videoa1.removeAttribute('controls');
+    });
+videoa2.addEventListener('ended', () => {
+      videoa2.removeAttribute('controls');
+    });
+videoa3.addEventListener('ended', () => {
+      videoa3.removeAttribute('controls');
+    });
 
 });

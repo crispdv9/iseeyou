@@ -91,6 +91,14 @@ $("#reload").click(function(){
                   $("#preguntadtres").hide();
 
                         });
+//controls
+
+videod1.addEventListener('ended', () => {
+      videod1.removeAttribute('controls');
+    });
+videod2.addEventListener('ended', () => {
+      videod2.removeAttribute('controls');
+    });
 
 
 });

@@ -104,5 +104,14 @@ $("#reload").click(function(){
 
                         });
 //control bar
+video1.addEventListener('ended', () => {
+      video1.removeAttribute('controls');
+    });
+video2.addEventListener('ended', () => {
+      video2.removeAttribute('controls');
+    });
+video3.addEventListener('ended', () => {
+      video3.removeAttribute('controls');
+    });
 
 });

@@ -91,5 +91,11 @@ $("#reload").click(function(){
                   $("#preguntattres").hide();
 
                         });
-
+//control bar
+    videot1.addEventListener('ended', () => {
+        videot1.removeAttribute('controls');
+        });
+    videot2.addEventListener('ended', () => {
+        videot2.removeAttribute('controls');
+        });
 });

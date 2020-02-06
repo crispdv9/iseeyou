@@ -91,4 +91,15 @@ $("#reload").click(function(){
 
                         });
 
+
+//controls
+
+
+videoo1.addEventListener('ended', () => {
+      videoo1.removeAttribute('controls');
+    });
+videoo2.addEventListener('ended', () => {
+      videoo2.removeAttribute('controls');
+    });
+
 });
