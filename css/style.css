@@ -1145,6 +1145,11 @@ html body [data-ca3_iconfont="ETmodules"]::before {
     content: url("../images/brazil.gif"); no-repeat;
 
   }
+
+  #firsticon {
+    content: url("../images/brazil.gif"); no-repeat;
+
+  }
   #home p{
     text-shadow: 0.3rem 0.3rem #E11800;
 
