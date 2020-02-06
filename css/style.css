@@ -1137,7 +1137,42 @@ html body [data-ca3_iconfont="ETmodules"]::before {
   background-color: #E11800;
 
   }
+  .fondo {
+    background-color: #00349C;
 
+  }
+  #glicth{
+    content: url("/images/brazil.gif"); no-repeat;
+
+  }
+  #home p{
+    text-shadow: 0.3rem 0.3rem #E11800;
+
+  }
+  #reload p{
+    text-shadow: 0.3rem 0.3rem #E11800;
+
+  }
+  #home2 p{
+    text-shadow: 0.3rem 0.3rem #E11800;
+
+  }
+  #reload2 p{
+    text-shadow: 0.3rem 0.3rem #E11800;
+
+  }
+  #home3 p{
+    text-shadow: 0.3rem 0.3rem #E11800;
+
+  }
+  #reload3 p{
+    text-shadow: 0.3rem 0.3rem #E11800;
+
+  }
+  .rectangle{
+    text-shadow: 0.2rem 0.2rem #E11800;
+
+  }
 }
 
 /*menu*/
