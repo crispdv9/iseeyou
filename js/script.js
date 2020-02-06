@@ -95,12 +95,15 @@ $("#reload").click(function(){
         $("#reload2").click(function(){
           video2.play();
           $("#preguntados").hide();
+          video2.controls = true;
+
 
                 });
 
                 $("#reload3").click(function(){
                   video3.play();
                   $("#preguntatres").hide();
+                  video3.controls = true;
 
                         });
 //control bar

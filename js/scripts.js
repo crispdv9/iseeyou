@@ -83,6 +83,7 @@ $("#reload").click(function(){
                 $("#reload2").click(function(){
                   videos2.play();
                   $("#preguntastres").hide();
+                  videos2.controls = true;
 
                         });
 //controls

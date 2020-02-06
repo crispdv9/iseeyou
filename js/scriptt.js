@@ -89,6 +89,7 @@ $("#reload").click(function(){
                 $("#reload2").click(function(){
                   videot2.play();
                   $("#preguntattres").hide();
+                  videot2.controls = true;
 
                         });
 //control bar

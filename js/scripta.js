@@ -89,12 +89,14 @@ $("#reload").click(function(){
         $("#reload2").click(function(){
           videoa2.play();
           $("#preguntaados").hide();
+          videoa2.controls = true;
 
                 });
 
                 $("#reload3").click(function(){
                   videoa3.play();
                   $("#preguntaatres").hide();
+                  videoa3.controls = true;
 
                         });
 

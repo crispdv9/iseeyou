@@ -88,6 +88,7 @@ $("#reload").click(function(){
                 $("#reload2").click(function(){
                   videoo2.play();
                   $("#preguntaotres").hide();
+                  videoo2.controls = true;
 
                         });
 
