@@ -1165,7 +1165,8 @@ background-color: #D13015;
 
   #glicth{
     content: url("../images/glitch2.gif"); no-repeat;
-
+    width: 120%;
+    height: 120%;
   }
 
   #firsticon {
