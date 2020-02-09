@@ -434,6 +434,8 @@ padding-right: 10%;
 #glicth {
 padding-top: 18%;
 padding-bottom: 10%;
+width:65%;
+height:65%;
 }
 
 video {
@@ -1165,8 +1167,10 @@ background-color: #D13015;
 
   #glicth{
     content: url("../images/glitch2.gif"); no-repeat;
-    width: 120%;
-    height: 120%;
+    width: 80%;
+    height:80%;
+    margin-left: 0;
+    align-items: left;
   }
 
   #firsticon {
